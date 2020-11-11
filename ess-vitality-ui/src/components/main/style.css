@@ -1,0 +1,31 @@
+.default-button {
+  color: black;
+  padding: 20px;
+  width: 120px;
+}
+
+.default-button:hover {
+  background-color: #e7e7e7;
+}
+
+.default-button:focus {
+  outline: 0;
+}
+
+.active-button {
+  background-color: #ffffff;
+  border-image: none;
+}
+
+.inactive-button {
+  background-color: #e9ecef;
+  border: 1px solid #bbbcb1;
+}
+
+.only-vertical-textarea-resize {
+  resize: vertical;
+}
+
+.disable-textarea-resize {
+  resize: none;
+}
